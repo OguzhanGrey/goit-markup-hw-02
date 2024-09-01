@@ -54,6 +54,10 @@ h2 {
   line-height: 2;
   text-align: center;
 }
+.section2 ul{
+    list-style-type: none;
+    
+}
 .section3 ul {
   list-style-type: none;
 }
