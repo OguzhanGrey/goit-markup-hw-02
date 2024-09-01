@@ -2,6 +2,9 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
+header a {
+  text-decoration: none;
+}
 .nav-text-list {
   list-style-type: none;
 }
@@ -13,12 +16,19 @@ body {
   line-height: 1.2em;
   text-decoration: none;
 }
+.nav-text-list a:hover,
+.nav-text-list:active {
+  color: #404bbf;
+}
 .address a {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2em;
   text-decoration: none;
+}
+.address a:hover {
+  color: #404bbf;
 }
 
 h1 {
@@ -35,6 +45,9 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2em;
+}
+button:hover {
+  background-color: #404bbf;
 }
 
 h3 {
@@ -72,4 +85,7 @@ h2 {
 }
 .footer p {
   color: #f4f4fd;
+}
+.footer a {
+  text-decoration: none;
 }
